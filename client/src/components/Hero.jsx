@@ -5,7 +5,7 @@ import { Card, Container, Button } from 'react-bootstrap'
 const Hero = () => {
   return (
     <div className='py-5'>
-        <Container className='d-flex justify-content-center hero-card bg-light w-75'>
+        <Container className='d-flex justify-content-center hero-card bg-light w-80'>
             <Card className='p-5 d-flex flex-column align-items-center hero-card bg-light mb-4'>
                 <LinkContainer to={'/'}>
                 <h1 className='text-center mb-4'>MERN authentication</h1>
